@@ -32,6 +32,18 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# base de datos local y archivos subidos
+/prisma/dev.db
+/prisma/dev.db-journal
+/uploads
+
+# imágenes fuente de trabajo
+/*.png
+
+# capturas y registros de pruebas locales
+/.tmp
 
 # vercel
 .vercel
